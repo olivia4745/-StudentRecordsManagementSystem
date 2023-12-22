@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+"use client";
+import { useState } from "react";
 
 export default function create() {
   const [studentData, setStudentData] = useState({
@@ -17,12 +18,12 @@ export default function create() {
     }));
   };
   return (
-    <div>
+    <div className="h-screen bg-form bg-[80vh 80vw]  bg-no-repeat">
       <div>
         <div></div>
         <div>
-          <h1></h1>
-          <span></span>
+          <h1>Add Student</h1>
+          <span>Fill the Form</span>
         </div>
       </div>
       <form action="post">
@@ -30,28 +31,38 @@ export default function create() {
           type="text"
           onChange={handleChange}
           value={studentData.surname}
+          placeholder="surname"
         />
         <input
           type="text"
           onChange={handleChange}
           value={studentData.firstName}
+          placeholder="first name"
         />
         <input
           type="text"
           onChange={handleChange}
           value={studentData.matricNo}
+          placeholder="matric number"
         />
         <input
           type="text"
           onChange={handleChange}
           value={studentData.college}
+          placeholder="college"
         />
         <input
           type="text"
           onChange={handleChange}
           value={studentData.department}
+          placeholder="department"
         />
-        <input type="email" onChange={handleChange} value={studentData.email} />
+        <input
+          type="email"
+          onChange={handleChange}
+          value={studentData.email}
+          placeholder="email"
+        />
         <div></div>
       </form>
     </div>

@@ -11,6 +11,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        form: "url('../assets/Form page.svg')",
       },
       colors: {
         primary: "#EAC6FFA8",
@@ -19,6 +20,7 @@ module.exports = {
       backgroundColor: {
         primary: "#EAC6FFA8",
         secondary: "#64388661",
+        sidebar: "#360A57FC",
       },
     },
   },
