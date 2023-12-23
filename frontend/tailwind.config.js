@@ -21,6 +21,8 @@ module.exports = {
         primary: "#EAC6FFA8",
         secondary: "#64388661",
         sidebar: "#360A57FC",
+        detailPrimary: "rgb(234, 198, 255)",
+        detailSecondary: "#FBF2FF",
       },
     },
   },
