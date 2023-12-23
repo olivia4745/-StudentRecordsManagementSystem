@@ -1,0 +1,60 @@
+const data = [
+  {
+    id: 1,
+    name: "Ellen Griffith",
+    matricNo: "23/ASD07/423 ",
+    college: "ENG",
+    department: "CIVIL ENG",
+    email: "duc@un.kp",
+  },
+  {
+    id: 2,
+    name: "Francis Cummings",
+    matricNo: "23/ASD07/423 ",
+    college: "ENG",
+    department: "CIVIL ENG",
+    email: "nav@vaczez.br",
+  },
+  {
+    id: 3,
+    name: "Sylvia Rogers",
+    matricNo: "23/ASD07/423 ",
+    college: "ENG",
+    department: "CIVIL ENG",
+    email: "tas@pimehbut.sm",
+  },
+  {
+    id: 4,
+    name: "Tyler McDonald",
+    matricNo: "23/ASD07/423 ",
+    college: "ENG",
+    department: "CIVIL ENG",
+    email: "lajoseca@as.je",
+  },
+  {
+    id: 5,
+    name: "Sadie Bell",
+    matricNo: "23/ASD07/423 ",
+    college: "ENG",
+    department: "CIVIL ENG",
+    email: "vo@timec.pm",
+  },
+  {
+    id: 6,
+    name: "Janie Valdez",
+    matricNo: "23/ASD07/423 ",
+    college: "ENG",
+    department: "CIVIL ENG",
+    email: "na@we.tg",
+  },
+  {
+    id: 7,
+    name: "Carlos Ortiz",
+    matricNo: "23/ASD07/423 ",
+    college: "ENG",
+    department: "CIVIL ENG",
+    email: "piudde@rumged.co",
+  },
+];
+
+export default data;
