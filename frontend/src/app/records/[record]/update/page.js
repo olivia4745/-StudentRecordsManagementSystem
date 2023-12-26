@@ -73,7 +73,7 @@ export default function create() {
   }, []);
 
   return (
-    <div className="h-screen bg-form bg-[80vh 80vw]  bg-no-repeat">
+    <div className="h-screen bg-form bg-cover bg-center bg-no-repeat">
       <div className="flex gap-4 mb-8 text-center pt-6">
         <div>
           <Image
