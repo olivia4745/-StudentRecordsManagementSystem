@@ -9,3 +9,11 @@ We've successfully completed the first merge, and I'd like to commend Adesanya I
 ### Feedback on UI:
 I've reviewed the changes, and it's looking good so far. However, there are a few areas that need completion. Specifically, the add form should be implemented to reflect on the second UI.
 Great job on the UI! 👍 I'm excited about the progress and looking forward to seeing the final result. Keep up the good work! 😊
+
+## Second Merge Update:
+I've reviewed and approved the front-end changes made by Adesanya Iyanu. The user form has been designed properly, incorporating the necessary changes.
+Special commendation to Obasi Merit, for the initial UI design input that served as the foundation for these design. Great collaboration!
+
+## Next Steps:
+With the front-end in good shape, we are now passing the baton to the backend team for further integration. 
+
