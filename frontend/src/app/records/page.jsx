@@ -38,11 +38,18 @@ export default function Records() {
             {students.length > 0 ? (
               <tbody className={`text-lg ${josfin_slab_600.className}`}>
                 {students.map((student, index) => {
-                  const { id, name, matricNo, college, department, email } =
-                    student;
+                  const {
+                    id,
+                    firstName,
+                    lastName,
+                    matricNo,
+                    college,
+                    department,
+                    email,
+                  } = student;
                   return (
                     <tr key={index} className="hover:shadow-lg text-center">
-                      <td className="border-b border-black py-4">{name}</td>
+                      <td className="border-b border-black py-4">{`${firstName} ${lastName}`}</td>
                       <td className="border-b border-black py-4">{matricNo}</td>
                       <td className="border-b border-black py-4">{college}</td>
                       <td className="border-b border-black py-4">
