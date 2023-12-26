@@ -1,7 +1,7 @@
 "use client";
-import { useState } from "react";
-import Arrow from "../../assets/Arrow circle up.svg";
-import Upload from "../../assets/Upload.svg";
+import { useEffect, useState } from "react";
+import Arrow from "../../../../assets/Arrow circle up.svg";
+import Upload from "../../../../assets/Upload.svg";
 import Image from "next/image";
 import {
   inter,
@@ -10,8 +10,16 @@ import {
   josfin_slab_700,
   jura,
 } from "@/util/font";
+import { useParams } from "next/navigation";
+import data from "@/data";
 
 export default function create() {
+  const { record } = useParams();
+  const currentStudent = data.filter(
+    (student) => student.id === Number(record)
+  );
+  console.log(currentStudent);
+
   const [studentData, setStudentData] = useState({
     firstName: "",
     lastName: "",
@@ -19,11 +27,8 @@ export default function create() {
     college: "",
     department: "",
     email: "",
-    passport: null,
+    passport: "",
   });
-
-  const [passportImage, setPassportImage] = useState(null);
-
   const handleChange = (e) => {
     const { name, value } = e.target;
 
@@ -54,6 +59,18 @@ export default function create() {
       console.log(entry);
     }
   };
+
+  useEffect(() => {
+    setStudentData({
+      firstName: currentStudent.firstName,
+      lastName: currentStudent.lastName,
+      matricNo: currentStudent.matricNo,
+      college: currentStudent.college,
+      department: currentStudent.department,
+      email: currentStudent.email,
+      passport: currentStudent.passport,
+    });
+  }, []);
 
   return (
     <div className="h-screen bg-form bg-[80vh 80vw]  bg-no-repeat">

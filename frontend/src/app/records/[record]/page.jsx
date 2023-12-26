@@ -46,7 +46,7 @@ export default function StudentDetail() {
       </div>
       <div className="bg-detailSecondary w-full h-2/3 rounded-t-3xl flex flex-col justify-center gap-14 items-center">
         <div className={`${josfin_slab_600.className} text-5xl`}>
-          {student.name}
+          {`${student.firstName} ${student.lastName}`}
         </div>
         <div
           className={`flex justify-center items-center h-16 gap-20 w-full text-3xl ${josfin_slab_600.className}`}

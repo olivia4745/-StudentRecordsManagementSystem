@@ -4,6 +4,14 @@ const inter = Inter({ subsets: ["latin"] });
 const julius = Julius_Sans_One({ subsets: ["latin"], weight: "400" });
 const josfin_slab_400 = Josefin_Slab({ subsets: ["latin"], weight: "400" });
 const josfin_slab_600 = Josefin_Slab({ subsets: ["latin"], weight: "600" });
+const josfin_slab_700 = Josefin_Slab({ subsets: ["latin"], weight: "700" });
 const jura = Jura({ subsets: ["latin"], weight: "400" });
 
-export { julius, inter, josfin_slab_400, josfin_slab_600, jura };
+export {
+  julius,
+  inter,
+  josfin_slab_400,
+  josfin_slab_600,
+  josfin_slab_700,
+  jura,
+};
